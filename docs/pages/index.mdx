@@ -1,5 +1,8 @@
 ---
-layout: landing
+layout: minimal
+content: 
+  verticalPadding: 100px
+title: BetrWeather
 ---
 
 
@@ -7,5 +10,11 @@ layout: landing
 import { HomePage } from 'vocs/components'
 
 <HomePage.Root>
-  <HomePage.Tagline>BetrWeather: Making predications and observations better.</HomePage.Tagline>
+  ![BetrWeather logo of clouds](./logo.png "BetrWeather")
+  <HomePage.Tagline>Making predications and observations better.</HomePage.Tagline>
+    <HomePage.Buttons>
+    <HomePage.Button href="/privacy" variant="accent">Privacy</HomePage.Button>
+    <HomePage.Button href="/License">License</HomePage.Button>
+     <HomePage.Button href="/copyright">Copyright</HomePage.Button>
+  </HomePage.Buttons>
 </HomePage.Root>

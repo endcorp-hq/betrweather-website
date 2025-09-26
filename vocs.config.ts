@@ -2,6 +2,8 @@ import { defineConfig } from 'vocs'
 
  
 export default defineConfig({
+  logoUrl: '/logo.png', 
+  iconUrl: '/logo.png', 
   title: 'BetrWeather',
   sidebar: [
     { text: 'Privacy', link: '/privacy' }, 
