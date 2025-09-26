@@ -1,7 +1,8 @@
 import { defineConfig } from 'vocs'
 
+ 
 export default defineConfig({
-  title: 'Docs',
+  title: 'BetrWeather',
   sidebar: [
     {
       text: 'Getting Started',
@@ -11,5 +12,10 @@ export default defineConfig({
       text: 'Example',
       link: '/example',
     },
+  ],
+  topNav: [ 
+    { text: 'Privacy', link: '/privacy' }, 
+    { text: 'License', link: '/license' }, 
+    { text: 'Copyright', link: '/copyright' }, 
   ],
 })
